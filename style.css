@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .unorder{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.navbar .unorder li{
+    padding: 20px;
+}
+.navbar .unorder a{
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: black;
+}
+.navbar .logo{
+    width: 130px;
+    margin-left: 20px;
+}
+.navbar .icons{
+   font-size: 23px;
+   margin-right: 10px;
+}
+.navbar .icons span{
+    padding: 10px;
+}
+
+.landing_img{
+    display: flex;
+    flex-wrap: wrap; 
+     align-items: end;
+     position: relative; 
+}
+.landing_img img{
+    width: 100%;
+}
+
+.ryme {
+    position: absolute;
+    padding: 0 0 80px 40px;
+    line-height: 40px;
+    width: 100%;
+}
+ .ryme h3{
+    font-size: 2.8vw;
+    font-family: 'Akatab', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+.ryme h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+.ryme a{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: .5s;
+}
+.ryme a:hover{
+    background: rgba(255, 68, 0, 0.753);
+}
+.catogrys{
+    height: auto;
+    overflow-x: auto;
+}
+.catogrys .head{
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000ec;
+    margin: 50px 0 30px 20px;
+}
+.cardscontner{
+ display: flex;
+}
+.cards{
+   margin-left: 20px;
+}
+.cardscontner .cards video{
+    height: 420px;
+}
+.cardscontner .cards img{
+    height: 420px;
+}
+.cardname{
+    margin: 10px 0 0 20px;
+    font-size: 20px;
+}
+.cardname a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.SmartWatches{
+    background: whitesmoke;
+    font-family: 'Poppins';
+    height: 120vh;
+    overflow-y: hidden;
+}
+.SmartWatches .head{
+    font-size: 18px;
+    height: 50px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000ec;
+    transition: 0.5s;
+    margin: 60px 0 10px 30px;
+}
+.SmartWatches .head:hover{
+    color: #56cfe1;
+}
+.watchcontener{
+    display: flex;
+
+}
+.watch_detale_cards{
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(224, 224, 224);
+    width: 350px;
+    margin-left: 40px;
+}
+.watch_detale_cards img{
+    height: 280px;
+}
+.watch_detale_cards .colr_btn,.colr_btn2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+.colr_btn .fav_colr, .colr_btn2 .fav_colr{
+    height: 16.5px;
+    width: 16.5px;
+    border: .5px solid black;
+    border-radius: 50%;
+    display: block;
+}
+.colr_btn span:nth-child(1){
+    background-color: #e78750;
+}
+.colr_btn span:nth-child(2){
+    background-color: #5f6366;
+}
+.colr_btn span:nth-child(3){
+    background-color: #c4bfb3;
+}
+.colr_btn2 span:nth-child(1){
+    background-color: #0e0c0c;
+}
+.colr_btn2 span:nth-child(2){
+    background-color: #50639c;
+}
+.colr_btn2 span:nth-child(3){
+    background-color: #6e7d6c;
+}
+.colr_btn2 span:nth-child(4){
+    background-color: #b7b7b7;
+}
+.colr_btn2 span:nth-child(5){
+    background-color: #e6e1da;
+}
+.colr_btn span.active {
+    border: 2px solid white;
+    outline: 2px solid black;
+}
+.watch_detale_cards .namee{
+    font-size: 20px;
+    margin: 25px 0 30px 0;
+}
+.watch_detale_cards ul{
+    margin-bottom: 30px;
+    color: #FF5206;  
+}
+.watch_detale_cards ul li span{
+    margin: 3px;
+    font-size: 0.8em;
+    color: black;
+    opacity: 0.9;
+
+}
+.watch_detale_cards .camp_rate{
+    font-size: small;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.camp_rate .rate{
+    color: #FF5206;
+}
+.camp_rate del{
+    opacity: .9;
+}
+.foot{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    height: 100vh;
+    gap: 10px;
+    background: whitesmoke;
+}
+.firsImg ,.secondImg{
+    display: flex;
+    position: relative;
+    align-items: end;
+    place-content: center;
+}
+.firsImg img,.secondImg img{
+    height: 495px;
+    
+}
+.purchasDetal{
+    font-family: 'Akatab', sans-serif;
+    position: absolute;
+    text-align: center;
+}
+.purchasDetal h1{
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+.purchasDetal h2{
+    color: white;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.oth h1,.oth h2{
+    color: black;
+}
+.heading{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    opacity: 0.8;
+    margin: 20px 0px 10px 0px;
+}
+.contenres{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card{
+    margin: 0px 0px 0px 20px;
+    width: 30.5vw;
+    height: 45vh;
+}
+.card .image{
+    height: 30vh;
+    width: 30vw;
+}
+.image{
+    margin-bottom: 20px;
+}
+.image img{
+    height: 30vh;
+    width: 30vw;
+}
+.card p{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 20px;
+    transition: all linear 1s;
+}
+.card:hover a{
+    color: #56cfe1;
+}
